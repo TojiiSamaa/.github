@@ -1,0 +1,7 @@
+name: Idée / amélioration
+description: Proposer une nouvelle fonction
+labels: ["amélioration", "à trier"]
+body:
+  - type: textarea
+    attributes: {label: Ce que tu voudrais, description: "Et pourquoi"}
+    validations: {required: true}

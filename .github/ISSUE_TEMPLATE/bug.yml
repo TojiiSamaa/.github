@@ -1,0 +1,12 @@
+name: Bug
+description: Quelque chose ne fonctionne pas
+labels: ["bug", "à trier"]
+body:
+  - type: textarea
+    attributes: {label: Ce qui se passe, description: "Et ce que tu attendais"}
+    validations: {required: true}
+  - type: textarea
+    attributes: {label: Comment le reproduire}
+    validations: {required: true}
+  - type: input
+    attributes: {label: Version / système}

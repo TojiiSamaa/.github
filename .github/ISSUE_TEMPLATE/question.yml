@@ -1,0 +1,7 @@
+name: Question
+description: Demande d'aide ou d'information
+labels: ["question", "à trier"]
+body:
+  - type: textarea
+    attributes: {label: Ta question}
+    validations: {required: true}
